@@ -7,11 +7,27 @@
     <title>YOLO</title>
     <link rel="stylesheet" href="http:at.alicdn.com/t/font_1589646_bkvz4lg4k0h.css">
     <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <audio style="display:none" src="music.mp3" controls="controls"autoplay="autoplay" loop="loop"></audio>
-   
-    <div class="top"></div>
+    <div class="top">
+        <span><a href="#">Gmail</a></span>
+        <span>
+            <a href="#">图片</a>
+        </span>
+        <span>
+            <button type="submit" name="登录" class="button0">登录</button>
+        </span>
+        <span>
+            <button id="btn" onclick="test()">1</button>
+            <input id="type" type="text" list="typelist" placeholder="请选择">
+            <datalist id="typelist">
+　　            <option id="l1">d</option>
+　　            <option>vertical</option>
+            </datalist>
+        </span>
+    </div>
     <div class="header">
         <div class="logo">
             <img  class="logo" src="logo.jpg">
@@ -21,11 +37,11 @@
         <div class="searchbox">
             <form class="searchbox">
                 <div class="box">
-                    <input  type="text=" placeholder="         请输入您要搜索的内容...">
+                    <input  type="text" placeholder="         请输入您要搜索的内容...">
                     <button class="button1"></button>
                 </div>
                 <button  class="submit1" type="submit" name="搜索">搜索</button>
-                <button  class="submit2" type="submit" name="YOLO">YOLO</button>
+                <button  class="submit2" type="submit" name="YOLO">放弃</button>
             </form>
         </div>
     </div>
@@ -36,24 +52,25 @@
         </p>
     </div>
     <div class="bottom2">
-        <p>长春a<br></p>
+        <p>长春<br></p>
         <hr>
-        <span>
-            <a href="https://tianqi.so.com/weather/101060101" target="_blank"> 天气</a>
-        </span>
-        <span>
-            <a href="https://baike.so.com/doc/14532764-15084159.html" target="_blank">博立电子</a>
-        </span>
-        <span>
-            <a href="https://github.com/xxingjjing/xinhomework" target="_blank">Github</a>
-        </span>
-        <br>
-        <span>
-            <a href="https://www.iconfont.cn/" target="_blank">iconfont</a>
-        </span>
-        <span>
-            <a href="https://www.cust.edu.cn/" target="_blank">长春理工大学</a>
-        </span>
+        <div class="bottom2-2">
+            <span>
+                <a href="https://tianqi.so.com/weather/101060101" target="_blank"> 天气</a>
+            </span>
+            <span>
+                <a href="https://baike.so.com/doc/14532764-15084159.html" target="_blank">博立电子</a>
+            </span>
+            <span>
+                <a href="https://github.com/xxingjjing/xinhomework" target="_blank">Github</a>
+            </span>
+            <span>
+                <a href="https://www.iconfont.cn/" target="_blank">iconfont</a>
+            </span>
+            <span>
+                <a href="https://www.cust.edu.cn/" target="_blank">长春理工大学</a>
+            </span>
+        </div>
 
     </div>
     
